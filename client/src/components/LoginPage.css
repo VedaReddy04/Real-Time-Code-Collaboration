@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1b1f3a;
+  color: #e8eaf6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-box {
+  background-color: #2b2f47; 
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 500px;
+}
+
+.logo h1 {
+  font-size: 1.8rem;
+  color: #e8eaf6; 
+  display: flex;
+  justify-content: center;
+}
+
+.input-field {
+  width: 87%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #404264; 
+  border-radius: 4px;
+  background-color: #333a56; 
+  color: #e8eaf6; 
+  outline: none;
+}
+
+.join-button {
+  width: 30%;
+  background-color: #ffd966; 
+  color: #1b1f3a; 
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.join-button:hover {
+  background-color: #f2c94c;
+}
+
+.generate-room {
+  margin-top: 1rem;
+  font-size: 15px;
+  color: #ffecb3; 
+  cursor: pointer;
+}
+
+.generate-room:hover {
+  text-decoration: underline;
+}
+
+.copy-button {
+  width: 30%;
+  background-color: #ffd966; 
+  color: #1b1f3a;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.copy-button:hover {
+  background-color: #f2c94c; 
+}
