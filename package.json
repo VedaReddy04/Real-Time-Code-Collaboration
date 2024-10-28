@@ -1,14 +1,15 @@
 {
   "name": "collaborate",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "axios": "^1.7.7",
     "cors": "^2.8.5",
@@ -17,5 +18,8 @@
     "node-fetch": "^2.7.0",
     "socket.io": "^4.8.1",
     "uuid": "^10.0.0"
+  },
+  "engines": {
+    "node": "20.13.1"
   }
 }
