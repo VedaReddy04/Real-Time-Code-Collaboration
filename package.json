@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node" : "20.13.1"
+  }
   "name": "collaborate",
   "version": "1.0.0",
   "main": "index.js",
